@@ -1,15 +1,28 @@
-div.hidden {
-  display: none;
+button.active {
+  background: rgb(230, 62, 62);
+  color: white;
 }
 
 div.active {
-  border: 5px solid red;
+  display: block;
+}
+
+div.inactive {
+  display: none;
+}
+
+ul li{
+  display: inline;
 }
 
 img.bigcoin {
-  width: 50px;
+  width: 100px;
 }
 
 img.smallcoin {
   width: 50px;
+}
+
+img#callcoin {
+  opacity: 0.5;
 }
